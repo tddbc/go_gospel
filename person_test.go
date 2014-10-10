@@ -7,9 +7,9 @@ import (
 
 func TestPersonSpec(t *testing.T) {
 	Describe(t, "person class", func() {
-		Context("create person", func() {
-			It("get property", func() {
-				sut := &Person{"yamada"}
+		Context("create instance by specifying the parameters to yamada", func() {
+			sut := &Person{"yamada"}
+			It("get lastname", func() {
 				Expect(sut.LastName).To(Equal, "yamada")
 			})
 		})
