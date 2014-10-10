@@ -17,9 +17,12 @@ func TestPersonSpec(t *testing.T) {
 			})
 		})
 		Context("create instance by specifying the parameters to Sato", func() {
-			sut := &Person{"Sato", "ichiro"}
-			It("get lastname", func() {
-				Expect(sut.LastName).To(Equal, "Sato")
+			sut := &Person{"sato", "ichiro"}
+			It("get last name", func() {
+				Expect(sut.LastName).To(Equal, "sato")
+			})
+			It("get first name", func() {
+				Expect(sut.FirstName).To(Equal, "ichiro")
 			})
 		})
 	})
