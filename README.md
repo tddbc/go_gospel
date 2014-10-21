@@ -11,3 +11,12 @@ _このプロジェクトは、TDDBC(Test Driven Development Boot Camp)で使用
 ```
 go get github.com/r7kamura/gospel
 ```
+
+## License
+Copyright (c) 2014 TDD BaseCamp and other contributors
+
+http://devtesting.jp/tddbc/
+
+https://github.com/tddbc
+
+Licensed under the MIT license.
